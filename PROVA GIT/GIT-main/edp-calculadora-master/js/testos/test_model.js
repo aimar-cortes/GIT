@@ -32,7 +32,7 @@ describe("Intentos de test de calculadora", () => {
     expect(result).toBe("Error");
   });
 
-  test("Si hi ha un '.' davant de un valor, s'entendra com a decimal", () => {
+  test("Si hi ha un '.' davant de un valor, s'entendra com a decimal ", () => {
     const calculador = new Calculadora();
     calculador.set_point();
     calculador.set(2);
