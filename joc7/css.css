@@ -1,0 +1,159 @@
+#caixa {
+    background-image: url("Captura.PNG");
+    background-repeat: repeat;
+    border-radius: 200px;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    right: 2%;
+    bottom: 4%;
+    border: 20px solid rgba(14, 14, 14, 0.89);
+}
+body{
+    background-image: url("square lr.jpeg");
+    background-repeat: repeat;
+}
+#cartes_maquina{
+    display: flex;
+    position: absolute;
+    left: 20%;
+    background-color: aliceblue;
+    bottom: 45%;
+}
+#prova {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#plantarse{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    transform: translateX(-50%);
+}
+#tornar_a_jugar{
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    transform: translateX(-50%);
+}
+#carta_al_reves {
+    position: fixed;
+    top: 10%;
+    right: 34%;
+    width: 7%;
+}
+.boto{
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    background-color: aquamarine;
+    transition: 500ms;
+    cursor: pointer;
+    width: 8vw;
+    height: 4vh;
+    font-size: 80%;
+    font-family: "Times New Roman";
+    margin-bottom: 2%;
+
+}
+.boto:hover{
+    width: 11%;
+    height: 6%;
+    font-size: 100%;    background-color: rgba(2, 147, 2, 0.71);
+    color: aliceblue;
+}
+#saldo_actual{
+    font-size: 1.3em ;
+    text-align: center;
+    margin: 3% 0;
+    font-family: "Times New Roman", serif;
+}
+#caixa_del_saldo_actual{
+    position: absolute;
+    bottom: 4.5%;
+    left: 80%;
+    transform: translateX(-50%);
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 5vw;
+    height: 4vh;
+    font-family: "Times New Roman", serif;
+    border: 3px solid;
+}
+#comencar{
+    position: absolute;
+    left: 41.5%;
+    bottom: 50%;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgb(79, 178, 145);
+    transition: 200ms;
+    cursor: pointer;
+    width: 15vw;
+    height: 7.5vh;
+    font-size: 100%;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+#comencar:hover{
+    transform: scale(1.2);
+    font-size: 100%;
+    background-color: rgb(2, 147, 2);
+    color: aliceblue;
+}
+#torn_de_joc{
+    color: #0e0e0e;
+    font-size: 180%;
+    text-align: center;
+    margin: 0;
+}
+#caixa_torn_de_joc{
+    position: absolute;
+    border: 3px solid;
+    border-radius: 30px;
+    width: 3vw;
+    height: 5vh;
+    left: 6%;
+    top: 10%;
+    background-color: aliceblue;
+}
+#text_primer_tutorial{
+    margin: 2%;
+    font-family: "Comic Sans MS";
+}
+#resultat{
+    position: absolute;
+    left: 42.5%;
+    bottom: 50%;
+    width: 15vw;
+    height: 7.5vh;
+    font-size: 180%;
+}
+#cartes_jugador img{
+    width: 7vw;
+}
+#cartes_jugador{
+    display: flex;
+    position: absolute;
+    left: 20%;
+    bottom: 15%;
+}
+#cartes_maquina img{
+    width: 7vw;
+}
+#caixa_puntuacio_jugador{
+    position: absolute;
+    border-radius: 15px;
+    background-color: aliceblue;
+    right: 10%;
+    bottom: 20%;
+    height: 5vh;
+    width: 3vw;
+    border: 5px solid;
+}
+#puntuacio_jugador{
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
